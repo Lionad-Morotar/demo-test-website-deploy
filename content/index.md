@@ -20,7 +20,7 @@ orientation: horizontal
 #links
   :::u-button
   ---
-  to: /1.cognition
+  to: /cognition
   size: xl
   trailing-icon: i-lucide-arrow-right
   ---
@@ -77,7 +77,7 @@ orientation: horizontal
   ---
   color: neutral
   size: lg
-  to: /1.cognition
+  to: /cognition
   trailingIcon: i-lucide-arrow-right
   variant: subtle
   ---
@@ -196,7 +196,7 @@ orientation: horizontal
   ---
   links:
     - label: 开始学习
-      to: '/1.cognition'
+      to: '/cognition'
       trailingIcon: i-lucide-arrow-right
     - label: 查看完整大纲
       to: '/outline-reference'

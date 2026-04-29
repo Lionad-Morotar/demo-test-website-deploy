@@ -72,42 +72,42 @@ export default defineNuxtConfig({
         title: '认知篇',
         contentCollection: 'docs',
         contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/1.cognition%' }
+          { field: 'path', operator: 'LIKE', value: '/cognition%' }
         ]
       },
       {
         title: '上手篇',
         contentCollection: 'docs',
         contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/2.getting-started%' }
+          { field: 'path', operator: 'LIKE', value: '/getting-started%' }
         ]
       },
       {
         title: '进阶篇',
         contentCollection: 'docs',
         contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/3.advanced%' }
+          { field: 'path', operator: 'LIKE', value: '/advanced%' }
         ]
       },
       {
         title: '实战篇',
         contentCollection: 'docs',
         contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/4.practice%' }
+          { field: 'path', operator: 'LIKE', value: '/practice%' }
         ]
       },
       {
         title: '协作篇',
         contentCollection: 'docs',
         contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/5.collaboration%' }
+          { field: 'path', operator: 'LIKE', value: '/collaboration%' }
         ]
       },
       {
         title: '资源篇',
         contentCollection: 'docs',
         contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/6.resources%' }
+          { field: 'path', operator: 'LIKE', value: '/resources%' }
         ]
       }
     ]
