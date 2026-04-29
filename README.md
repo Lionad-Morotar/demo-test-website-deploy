@@ -1,62 +1,43 @@
-# Nuxt Docs Template
+# demo-test-website-deploy
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+> **⚠️ 警告：本项目仅为技术测试与演示用途，无任何生产价值。**
+>
+> 这是一个用于验证 GitHub Pages 部署 Nuxt UI Docs 站点的实验性项目，内容来源于产研分享会的草稿文档，不代表任何正式观点或立场。
 
-Use this template to build your own documentation with [Nuxt UI](https://ui.nuxt.com) quickly.
+## 项目简介
 
-- [Live demo](https://docs-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
+本项目基于 [Nuxt UI Docs 模板](https://ui.nuxt.com/getting-started/installation/nuxt) 初始化，用于演示：
 
-<a href="https://docs-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/docs-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/docs-light.png">
-    <img alt="Nuxt Docs Template" src="https://ui.nuxt.com/assets/templates/nuxt/docs-light.png">
-  </picture>
-</a>
+- Nuxt UI + Nuxt Content 构建文档站点
+- GitHub Actions 自动构建与部署到 GitHub Pages
+- 静态站点生成（Static Site Generation）配置
 
-## Quick Start
+## 技术栈
 
-```bash [Terminal]
-npm create nuxt@latest -- -t ui/docs
-```
+- [Nuxt](https://nuxt.com/) — Vue 全栈框架
+- [Nuxt UI](https://ui.nuxt.com/) — UI 组件库
+- [Nuxt Content](https://content.nuxt.com/) — 基于文件的 CMS
+- [Tailwind CSS v4](https://tailwindcss.com/) — 原子化 CSS
+- [pnpm](https://pnpm.io/) — 包管理器
 
-## Deploy your own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=docs&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fdocs&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fdocs-dark.png&demo-url=https%3A%2F%2Fdocs-template.nuxt.dev%2F&demo-title=Nuxt%20Docs%20Template&demo-description=A%20documentation%20template%20powered%20by%20Nuxt%20Content.)
-
-## Setup
-
-Make sure to install the dependencies:
+## 本地开发
 
 ```bash
+# 安装依赖
 pnpm install
-```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
+# 启动开发服务器
 pnpm dev
 ```
 
-## Production
+## 部署
 
-Build the application for production:
+本项目通过 GitHub Actions 自动部署到 GitHub Pages：
 
-```bash
-pnpm build
-```
+- 推送至 `main` 分支触发自动构建
+- 构建产物部署到 `gh-pages` 分支
+- 访问地址：[https://lionad-morotar.github.io/demo-test-website-deploy/](https://lionad-morotar.github.io/demo-test-website-deploy/)
 
-Locally preview production build:
+## 许可证
 
-```bash
-pnpm preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-## Renovate integration
-
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+MIT — 但再次提醒，本项目仅供学习测试，请勿用于生产环境。
