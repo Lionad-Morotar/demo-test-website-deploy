@@ -32,7 +32,7 @@ jobs:
           cache: pnpm
 
       - name: Install dependencies
-        run: pnpm install --allow-builds
+        run: pnpm install --dangerously-allow-all-builds
 
       - name: Build static site
         run: pnpm nuxt generate
